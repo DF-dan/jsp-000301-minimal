@@ -1,0 +1,18 @@
+JSP301.golomb_counterexample : JSP301.Counterexample 12167
+JSP301.no_counterexample_below (n : ℕ) (hn : n < 12167) : ¬JSP301.Counterexample n
+JSP301.least_counterexample : JSP301.Counterexample 12167 ∧ ∀ (n : ℕ), JSP301.Counterexample n → 12167 ≤ n
+JSP301.original_question_disproved :
+  ¬∀ (n : ℕ), 0 < n → JSP301.Powerful n → JSP301.Powerful (n + 1) → JSP301.Square n ∨ JSP301.Square (n + 1)
+'literal_existence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'literal_minimality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.excludes_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.primeWitnesses_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.checkBlock_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.block_checked' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.block_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.powerful_square_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.golomb_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.no_counterexample_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.counterexample_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.least_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'JSP301.original_question_disproved' depends on axioms: [propext, Classical.choice, Quot.sound]
